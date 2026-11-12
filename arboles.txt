@@ -1,0 +1,29 @@
+
+PRINCIPIO DE ARBOLES
+
+Un arbol es una estructura de datos que permite organizar informacion de manera jerarquica. Esta estructura esta formada por nodos que contienen datos y conexiones entre ellos.
+
+En un arbol binario cada nodo puede tener como maximo dos hijos, conocidos como hijo izquierdo e hijo derecho.
+
+El arbol binario de busqueda organiza los datos de la siguiente manera: los valores menores se ubican en la parte izquierda y los valores mayores en la parte derecha.
+
+EXPLICACION DEL CODIGO
+
+El programa solicita al usuario ingresar cinco numeros por consola. Cada numero se utiliza para crear un nodo y agregarlo al arbol binario de busqueda.
+
+La funcion crearNodo permite crear un nuevo nodo y almacenar el numero ingresado.
+
+La funcion insertar se encarga de organizar los numeros dentro del arbol, comparando cada valor con los nodos existentes para determinar si debe ubicarse a la izquierda o a la derecha.
+
+Una vez ingresados los cinco numeros, el programa realiza tres tipos de recorridos:
+
+PREORDEN:
+Primero muestra la raiz, despues recorre el lado izquierdo y finalmente el lado derecho.
+
+INORDEN:
+Primero recorre el lado izquierdo, despues muestra la raiz y finalmente recorre el lado derecho. En un arbol binario de busqueda muestra los numeros de menor a mayor.
+
+POSORDEN:
+Primero recorre el lado izquierdo, despues el lado derecho y finalmente muestra la raiz.
+
+El programa permite observar las diferentes formas de recorrer y organizar los datos dentro de una estructura de arbol.
